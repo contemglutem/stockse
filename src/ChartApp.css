@@ -1,0 +1,81 @@
+/* Header CSS */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #06c8c2;
+  color: #fff;  
+  width: 100%;
+ }
+ 
+ .header h1 {
+  margin: 0;
+ }
+ 
+ .header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ .header nav ul li {
+  margin-left: 10px;
+ }
+ 
+ .header nav ul li a {
+  padding: 10px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #ff8247;
+  border: none;
+  cursor: pointer;
+ }
+
+ .header nav ul li li a {
+  padding: 10px 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #06c8c2;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+ 
+ .header button {
+  padding: 10px 20px;
+  background-color: #ff8247;  
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ .header button:hover {
+  background-color: #ff8247;
+ }
+
+ .search-bar {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 350px;
+ }
+ 
+ .search-bar:focus {
+  outline: none;
+  border-color: #333;
+ }

@@ -1,0 +1,55 @@
+/* CSS for StockData component */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px; /* Adjust the padding as needed */
+    max-width: 60%;
+    margin: 0 10px;
+  }
+  .stock-data {
+    
+    background-color: #fff;
+    padding: 1rem 1rem 1rem;
+  }
+  .stock-data-header {
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .stock-data-header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .stock-data-header h2 {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .stock-data-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 5px; /* Adjust the padding as needed */
+    max-width: 200px;
+    margin: 0 10px;
+  }
+  .stock-data-row {
+    display: display-box;
+    margin-bottom: 0.5rem;
+  }
+  .stock-data-label {
+    background-color: #e9e9e9;  
+    font-weight: normal;
+    text-align: center;
+    color: #ff8247;
+    width: 200px;
+    margin-left: 40px;
+    padding-top: 0.25rem;
+  }
+  .stock-data-value {
+    font-weight: bold;
+    background-color: #e9e9e9;  
+    text-align: center;
+    margin-left: 40px;
+    padding-bottom: 0.5rem;
+  }
